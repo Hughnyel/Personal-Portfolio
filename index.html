@@ -7,99 +7,75 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">Janelle Villanueva</div>
-            <ul>
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <section id="hero">
-        <div class="hero-content">
-            <h1>Hi, I'm Janelle Villanueva</h1>
-            <p>Web Developer/Freelancer</p>
-            <a href="#portfolio" class="cta-button">View My Work</a>
-        </div>
-        <div class="hero-image">
-            <img src="https://lh3.googleusercontent.com/a/ACg8ocJY02dLrlXiX9HurvxaSYTS7e57XTqa2S2u_WqKnegljMcpLAFb=s288-c-no" alt="Profile Photo">
-        </div>
-    </section>
-    
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>Janelle Yoanna S. Villanueva, a 21-year-old Bachelor of Science in Information
-                    Technology student at the University of the Cordilleras, is a passionate freelancer
-                    and web developer. She specializes in creating innovative, user-friendly websites
-                    and constantly hones her skills in front-end and back-end development.
-                    Outside her professional pursuits, Janelle enjoys exploring design trends,
-                    coding projects, reading, and hiking</p>
-            <div class="about-grid">
-                <div class="about-item">
-                    <h3>Experience</h3>
-                    <p>2+ years in web development.</p>
-                </div>
-                <div class="about-item">
-                    <h3>Skills</h3>
-                    <ul>
-                        <li>HTML & CSS</li>
-                        <li>JavaScript</li>
-                        <li>React</li>
-                        <li>Node.js</li>
-                    </ul>
-                </div>
+    <div class="container">
+        <h1>Hi, I'm Janelle Villanueva</h1>
+
+        <p>Hello! My name is <strong>Janelle Yoanna S. Villanueva</strong>. I am a Web Developer/Freelancer. Below is some information about me.</p>
+
+        <hr>
+
+        <h2>Personal Information</h2>
+        <ul>
+            <li><strong>Age:</strong> 21 years old</li>
+            <li><strong>Course:</strong> Bachelor of Science in Information Technology (BSIT)</li>
+            <li><strong>School:</strong> University of the Cordilleras</li>
+            <li><strong>Experience:</strong> 2+ years in web development</li>
+        </ul>
+
+        <h2>Skills</h2>
+        <ol>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+        </ol>
+
+        <h2>Interests</h2>
+        <p>
+            I am interested in web development, multimedia systems, and learning new technologies related to IT.
+            I also love cats and dogs, exploring design trends, coding projects, reading, and hiking.
+        </p>
+
+        <h2>My Photo</h2>
+        <img src="https://lh3.googleusercontent.com/a/ACg8ocJY02dLrlXiX9HurvxaSYTS7e57XTqa2S2u_WqKnegljMcpLAFb=s288-c-no" alt="My Photo" class="profile-pic">
+
+        <hr>
+
+        <h2>My Portfolio</h2>
+        <div class="portfolio-section">
+            <div class="project">
+                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/688018213023403.673f0550de7fc.png" alt="Project 1">
+                <h3>E-Commerce Site</h3>
+                <p>A responsive e-commerce site built with React.</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+            <div class="project">
+                <img src="https://colorlib.com/wp/wp-content/uploads/sites/2/amanda-rache-lee-resume-website-1024x829.jpg" alt="Project 2">
+                <h3>Personal Blog</h3>
+                <p>A blog using Node.js and Express.</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+            <div class="project">
+                <img src="https://codehalweb.com/wp-content/uploads/2023/05/thumbnail-19-1024x576.jpg" alt="Project 3">
+                <h3>Portfolio Website</h3>
+                <p>A clean portfolio site like this one.</p>
+                <a href="#" class="project-link">View Project</a>
             </div>
         </div>
-    </section>
-    
-    <section id="portfolio">
-        <div class="container">
-            <h2>My Portfolio</h2>
-            <div class="portfolio-grid">
-                <div class="project">
-                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/688018213023403.673f0550de7fc.png" alt="Project 1">
-                    <h3>E-Commerce Site</h3>
-                    <p>A responsive e-commerce site built with React.</p>
-                    <a href="#" class="project-link">View Project</a>
-                </div>
-                <div class="project">
-                    <img src="https://colorlib.com/wp/wp-content/uploads/sites/2/amanda-rache-lee-resume-website-1024x829.jpg" alt="Project 2">
-                    <h3>Personal Blog</h3>
-                    <p>A blog using Node.js and Express.</p>
-                    <a href="#" class="project-link">View Project</a>
-                </div>
-                <div class="project">
-                    <img src="https://codehalweb.com/wp-content/uploads/2023/05/thumbnail-19-1024x576.jpg" alt="Project 3">
-                    <h3>Portfolio Website</h3>
-                    <p>A clean portfolio site like this one.</p>
-                    <a href="#" class="project-link">View Project</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <form>
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-            <div class="contact-info">
-                <p>Email: jsv6617@students.uc-bcf.edu.ph</p>
-            </div>
-        </div>
-    </section>
-    
-    <footer>
-        <p>&copy; 2026 Janelle Villanueva. All rights reserved.</p>
-    </footer>
+
+        <h2>Contact Information</h2>
+        <table>
+            <tr>
+                <th>Email</th>
+                <td>jsv6617@students.uc-bcf.edu.ph</td>
+            </tr>
+            <tr>
+                <th>Facebook</th>
+                <td>
+            </tr>
+        </table>
+
+        <p class="footer">&copy; 2026 Janelle Villanueva. All rights reserved.</p>
+    </div>
 </body>
 </html>
